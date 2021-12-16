@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
         //it will remove all the unreadable characters
         monochrome = true,
         //tags is like logical operators, and you can define the scope of what you want to be executed
-        tags = "@HW1030",
+        tags = "@database" ,
         plugin = {"pretty", "html:target/cucumber.html", "json:target/cucumber.json", "rerun:target/failed.txt"}
         //plugin - we use it to generate report for the execution
         //pretty - it takes care of printing the steps in console
